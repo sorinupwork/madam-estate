@@ -2,10 +2,12 @@
   "name": "madam-estate",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon api/server.js",
-    "start": "node api/server.js"
+    "dev-server": "cd api && nodemon index.js",
+    "start-server": "cd api && node index.js",
+    "dev-client": " cd client && npm run dev",
+    "build-client": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
