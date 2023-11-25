@@ -16,6 +16,11 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    photo: {
+      type: String,
+      default:
+        'https://wallpapers-clan.com/wp-content/uploads/2022/08/default-pfp-1.jpg',
+    },
   },
   { timestamps: true }
 );
