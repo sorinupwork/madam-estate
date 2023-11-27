@@ -286,9 +286,11 @@ export default function Profile() {
                 >
                   delete
                 </button>
-                <button className="text-green-700 uppercase text-sm">
-                  edit
-                </button>
+                <Link to={`/update-listing/${listing._id}`}>
+                  <button className="text-green-700 uppercase text-sm">
+                    edit
+                  </button>
+                </Link>
               </div>
             </div>
           ))}
