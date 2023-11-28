@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev-server": "cd api && nodemon index.js",
-    "start-server": "cd api && node index.js",
     "dev-client": " cd client && npm run dev",
-    "build-client": "cd client && npm run build"
+    "start": "cd api && node index.js",
+    "build": "cd api && npm install && cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
