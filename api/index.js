@@ -1,4 +1,4 @@
-import path from 'path';
+import path from 'node:path';
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
